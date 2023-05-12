@@ -18,7 +18,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.mockserver.model.HttpRequest.request;
 import static org.mockserver.model.HttpResponse.response;
 
-@SpringBootTest(classes = SpringDemoApplication.class)
+@SpringBootTest(classes = SmartStoreApplication.class)
 public class BootstrappedMockMessageServerRestControllerTest {
 
     @BeforeAll

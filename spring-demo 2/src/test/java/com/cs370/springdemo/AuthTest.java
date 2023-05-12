@@ -24,7 +24,7 @@ class AuthTest {
                 .auth().basic("sergey", "chapman")
                 .contentType(ContentType.JSON)
                 .when()
-                .get("http://localhost:" + port + "/messages")
+                .get("http://localhost:" + port + "/stores")
                 .then()
                 .statusCode(200)
                 .extract();

@@ -1,9 +1,11 @@
 package com.cs370.springdemo.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Transient;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import jakarta.persistence.*;
 
 /**
  * Store class implementation representing store of the Store Model Service

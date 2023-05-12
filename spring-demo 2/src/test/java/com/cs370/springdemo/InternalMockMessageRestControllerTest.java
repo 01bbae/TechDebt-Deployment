@@ -1,16 +1,10 @@
 package com.cs370.springdemo;
 
-import io.restassured.RestAssured;
-import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.http.ContentType;
-import io.restassured.response.ExtractableResponse;
-import io.restassured.response.Response;
 import org.json.JSONException;
 import org.junit.jupiter.api.Test;
-import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = SpringDemoApplication.class)
+@SpringBootTest(classes = SmartStoreApplication.class)
 public class InternalMockMessageRestControllerTest {
 
     @Test

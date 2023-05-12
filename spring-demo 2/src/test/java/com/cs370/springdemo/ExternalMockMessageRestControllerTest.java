@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = SpringDemoApplication.class)
+@SpringBootTest(classes = SmartStoreApplication.class)
 public class ExternalMockMessageRestControllerTest {
 
     @Test
